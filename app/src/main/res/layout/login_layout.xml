@@ -14,6 +14,7 @@
         android:src="#000000" />
 
     <EditText
+        android:id="@+id/usr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Usuario"
