@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -14,24 +15,41 @@
         android:src="#000000" />
 
     <EditText
-        android:id="@+id/usr"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/borda"
+        android:padding="5dp"
+        android:drawableRight="@drawable/ic_sharp_email"
+        android:id="@+id/usr_entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Usuario"
         android:inputType="textPersonName"
-        android:maxLength="100" />
+        android:maxLength="100"
+        android:layout_marginBottom="5dp"
+
+        />
 
     <EditText
+        android:background="@drawable/borda"
+        android:padding="5dp"
+        android:id="@+id/senha_usr"
+        android:drawableRight="@drawable/ic_baseline_lock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Senha" />
+        android:hint="Senha"
+        android:layout_marginBottom="5dp"
+        />
 
     <Button
+
+        android:background="@drawable/borda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ENTRAR" />
 
     <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/borda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SAIR" />
