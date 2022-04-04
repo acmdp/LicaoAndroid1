@@ -4,28 +4,122 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:layout_margin="50dp"
-        android:src="@drawable/rato" />
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:text="BEM VINDO AO SITE"
-        android:textAlignment="center"
-        android:textColor="@color/teal_200"
-        android:textSize="20dp" />
+        android:orientation="vertical">
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/what" />
+
+
+        <EditText
+            android:id="@+id/usr_entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/line_color"
+            android:hint="Email Address"
+            android:inputType="textPersonName"
+            android:maxLength="100"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/line_color"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/senha_usr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/line_color"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/line_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borda"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#EFDADA"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Forget Password?"
+            android:textColor="@color/line_color"
+            android:textSize="18sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="20"
+                android:background="@drawable/line"
+                android:textAlignment="center"
+                android:textColor="@color/line_color"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="or"
+                android:textAlignment="center"
+                android:textColor="@color/line_color"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="20"
+                android:background="@drawable/line"
+                android:textAlignment="center"
+                android:textColor="@color/line_color"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Sign up"
+            android:textColor="@color/line_color"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
 
 </LinearLayout>
+

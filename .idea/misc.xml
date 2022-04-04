@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Caioba/ProjetoAPP/TesteAndroid/app/src/main/res/drawable/borda.xml" value="0.22" />
+        <entry key="..\:/Users/Caioba/ProjetoAPP/TesteAndroid/app/src/main/res/drawable/line.xml" value="0.1" />
+        <entry key="..\:/Users/Caioba/ProjetoAPP/TesteAndroid/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Caioba/ProjetoAPP/TesteAndroid/app/src/main/res/layout/login_layout.xml" value="0.33" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/AulaAndroid/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/AulaAndroid/app/src/main/res/layout/login_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/TesteAndroid/app/src/main/res/drawable/borda.xml" value="0.2835" />
@@ -14,7 +18,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
